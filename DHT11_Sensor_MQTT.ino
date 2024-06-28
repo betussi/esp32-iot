@@ -6,9 +6,10 @@ extern "C" {
 }
 #include <AsyncMqttClient.h>
 
-#define WIFI_SSID "Betussi"
-#define WIFI_PASSWORD "P@ssword1"
-#define MQTT_HOST IPAddress(192, 168, 17, 60)
+//Put the SSID, PASSWORD and IPAddress from your environment
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define MQTT_HOST IPAddress(x, x, x, x)
 #define MQTT_PORT 1883
 
 #define MQTT_PUB_TEMP "esp32/dht/temperature"
