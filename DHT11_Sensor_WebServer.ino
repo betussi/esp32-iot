@@ -4,7 +4,7 @@
 #include <ESPmDNS.h>
 #include <DHT.h>
 
-# Put the SSID and PASSWORD from your environment
+//Put the SSID and PASSWORD from your environment
 const char *ssid = "";
 const char *password = "";
 
