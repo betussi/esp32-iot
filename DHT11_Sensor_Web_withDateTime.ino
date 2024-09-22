@@ -5,9 +5,8 @@
 #include <DHT.h>
 #include <time.h>
 
-//Put the SSID and PASSWORD from your environment
-const char *ssid = "";
-const char *password = "";
+const char *ssid = "Betussi 2.4Ghz";
+const char *password = "Rfb@Sup23cpd";
 
 WebServer server(80);
 DHT dht(4, DHT11);
@@ -25,7 +24,7 @@ void handleRoot() {
     <meta http-equiv='refresh' content='10'/>\
     <meta name='viewport' content='width=device-width, initial-scale=1'>\
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>\
-    <title>Weather Report</title>\
+    <title>Home Office Weather Report</title>\
     <style>\
     html { font-family: Arial; display: inline-block; margin: 0px auto; text-align: center;}\
     h2 { font-size: 3.0rem; }\
@@ -42,7 +41,7 @@ void handleRoot() {
     </script>\
   </head>\
   <body onload='updateTime()'>\
-      <h2>Weather Report</h2>\
+      <h2>Home Office Weather Report</h2>\
       <p>Current Date and Time: <span id='datetime'></span></p>\
       <p>\
         <i class='fas fa-thermometer-half' style='color:#ca3517;'></i>\
