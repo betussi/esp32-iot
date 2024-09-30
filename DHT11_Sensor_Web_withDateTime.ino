@@ -5,8 +5,8 @@
 #include <DHT.h>
 #include <time.h>
 
-const char *ssid = "Betussi 2.4Ghz";
-const char *password = "Rfb@Sup23cpd";
+const char *ssid = "YOUR_SSID";
+const char *password = "YOUR_SSID_PASSWORD";
 
 WebServer server(80);
 DHT dht(4, DHT11);
