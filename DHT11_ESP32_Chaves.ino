@@ -5,9 +5,9 @@
 #define DHTPIN 4         // GPIO pin where DHT11 is connected
 #define DHTTYPE DHT11    // DHT 11
 
-const char* ssid = "Betussi 2.4Ghz";          // Your WiFi SSID
-const char* password = "Rfb@Sup23cpd";  // Your WiFi password
-const char* serverUrl = "http://ec2-52-14-56-16.us-east-2.compute.amazonaws.com:1880/data";  // Node-RED endpoint
+const char* ssid = "YOUR_SSID_NETWORK";          // Your WiFi SSID
+const char* password = "YOUR_SSID_PASSWORD";  // Your WiFi password
+const char* serverUrl = "http://Node-RED-Endpoint:1880/data";  // Node-RED endpoint
 
 DHT dht(DHTPIN, DHTTYPE);
 
