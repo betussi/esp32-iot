@@ -12,10 +12,10 @@ O sistema é composto por três conjuntos principais:
 1. **Publicação de Dados via MQTT**:  
    Através do ESP32 os dados são coletados e enviados via protocolo MQTT.
 
-2. **Controle da Bomba d'Água**:  
+2. **Controle de Temperatura e Umidade**:  
    XXX
 
-3. **Visualização dos dados**:  
+3. **Visualização dos Dados**:  
    XXX
 
 ### Componentes Utilizados
