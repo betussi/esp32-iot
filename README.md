@@ -13,10 +13,10 @@ O sistema é composto por três conjuntos principais:
    Através do ESP32 os dados são coletados e enviados via protocolo MQTT.
 
 2. **Controle da Bomba d'Água**:  
-   Um segundo conjunto de dispositivos está inscrito no tópico MQTT para receber as medições de nível. Este sistema analisa os dados e comanda uma bomba d'água, garantindo o escoamento do contêiner correspondente quando necessário. Além disso, é possível acionar a bomba arbitrariamente, enviando um comando para um segundo tópico MQTT.
+   XXX
 
 3. **Visualização dos dados**:  
-   O terceiro conjunto é composto por um ESP32 e um display LCD 15x2, que exibe em tempo real as leituras do nível de fluído publicadas no tópico. Um botão está integrado ao sistema para permitir o comando manual da bomba d'água, enviando um comando a outro tópico MQTT.
+   XXX
 
 ### Componentes Utilizados
 - Sensor DHT11
