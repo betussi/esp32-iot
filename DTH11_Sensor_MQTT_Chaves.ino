@@ -5,8 +5,8 @@
 #define DHTPIN 4         // GPIO pin where DHT11 is connected
 #define DHTTYPE DHT11    // DHT 11
 
-const char* ssid = "Betussi 2.4Ghz";          // Your WiFi SSID
-const char* password = "Rfb@Sup23cpd";        // Your WiFi password
+const char* ssid = "Your WiFi SSID";       
+const char* password = "Your WiFi password";        
 const char* mqtt_server = "52.14.56.16";      
 const int mqtt_port = 1883;                    // MQTT broker port
 const char* mqtt_topic = "iot/sensor/data";    // MQTT topic to publish data
