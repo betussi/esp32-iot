@@ -1,6 +1,6 @@
 # IoT - Sistema de Controle de Temperatura e Umidade Residencial
 
-Desenvolvido por [Leonardo Donato](https://github.com/leopdonato) / [Rodrigo Betussi](https://github.com/betussi)
+Desenvolvido por [Leonardo Donato](https://github.com/leopdonato) - leonardo.donato@aluno.ifsp.edu.br / [Rodrigo Betussi](https://github.com/betussi) - rodrigo.betussi@aluno.ifsp.edu.br
 
 ## Projeto de Trabalho de Conclusão da Disciplina de Plataformas de Prototipação para IoT (E2PPT) - IFSP CTD
 
