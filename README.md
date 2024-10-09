@@ -6,7 +6,7 @@ Desenvolvido por [Leonardo Donato](https://github.com/leopdonato) / [Rodrigo Bet
 
 ### Visão Geral
 
-Este projeto visa monitorar em tempo real a temperatura e umidade através do sensor DHT11, onde os dados são enviados para um banco de dados (DynamoDB) onde é possível através de um gráfico ter um histórico completo das coletas para futuras análises. 
+Este projeto visa monitorar em tempo real a temperatura e umidade através do sensor DHT11, onde os dados são enviados para um banco de dados (DynamoDB) e é possível através de um gráfico ter um histórico completo das coletas para futuras análises. 
 O sistema é composto por três conjuntos principais:
 
 1. **Publicação de Dados via MQTT**:  
