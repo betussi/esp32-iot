@@ -30,7 +30,7 @@ O sistema é composto por três conjuntos principais:
 ### Node-Red - Flow
 http://ec2-52-14-56-16.us-east-2.compute.amazonaws.com:1880/#flow/9836ac50350623ca
 
-![Node-Red - MQTT](./imagens/Node-Red_Flow_MQTT.png)
+![Node-Red - MQTT](./imagens/Node-Red_Flow_MQTT_01.png)
 
 ![Node-Red - Gráfico](./imagens/Node-Red_Flow_Gráfico.png)
 
