@@ -6,18 +6,18 @@ Desenvolvido por [Leonardo Donato](https://github.com/leopdonato) - leonardo.don
 
 ### Visão Geral
 
-Este projeto visa monitorar em tempo real a temperatura e umidade através do sensor DHT11, onde os dados são enviados para um banco de dados (DynamoDB) e é possível através de um gráfico ter um histórico completo das coletas para futuras análises. 
-O sistema é composto por três conjuntos principais:
+Este projeto visa monitorar em tempo real a temperatura e umidade através do sensor DHT11, onde os dados são armazenados no banco de dados (DynamoDB) sendo possível através de um gráfico ter a visualização completa do histórico das coletas para futuras análises. O sistema é composto por três conjuntos principais:
 
 1. **Publicação de Dados via MQTT**:  
-   Através do ESP32 os dados são coletados e enviados via protocolo MQTT.
+   Através do ESP32 os dados do ambiente são coletados e através do tópico iot/sensor/data os dados são publicados atráves do protocolo MQTT.
 
-2. **Controle de Temperatura e Umidade**:  
-   Os dados são coletados via Node-Red e armazenados no banco de dados DynamoDB.
+3. **Controle de Temperatura e Umidade (Back-End)**:  
+   Via Node-Red as informações de temperatura e unimidade são recebidas e armazenados no banco de dados DynamoDB.
 
-3. **Visualização dos Dados**:  
-   Utilizando o Node-Red os dados coletados pelo sensor DHT11 podem ser visualizados em tempo real.
+4. **Visualização dos Dados**:  
+   As coletas podem ser visualizadas através de duas abas, onde temos o tempo real e gráfico/tabela.
 
+O código completo pode ser visualizado atráves do link abaixo:
    Código ESP32 - https://github.com/betussi/esp32-iot/blob/main/DTH11_Sensor_MQTT_Chaves.ino
 
 ### Componentes e Infraestrutura Utilizada
@@ -45,9 +45,11 @@ http://ec2-52-14-56-16.us-east-2.compute.amazonaws.com:1880/ui
 
 ![Gráfico com os dados coletados e armazenados no banco de dados DynamoDB](./imagens/Node-Red_Gráfico_01.png)
 
-## Tabela com os dados coletados e armazenados no banco de dados DynamoDB
+## JSONs
 
-![Gráfico com os dados coletados e armazenados no banco de dados DynamoDB](./imagens/Node-Red_Tabela_01.png)
+[ESP32 - MQTT](https://github.com/betussi/esp32-iot/blob/main/node-red/ESP32%20-%20MQTT.json)
+
+[Gráficos](https://github.com/betussi/esp32-iot/blob/main/node-red/Gr%C3%A1ficos.json)
 
 ### Simulação Wokwi
 
