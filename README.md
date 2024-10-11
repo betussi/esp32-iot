@@ -45,6 +45,8 @@ http://ec2-52-14-56-16.us-east-2.compute.amazonaws.com:1880/ui
 
 ![Gráfico com os dados coletados e armazenados no banco de dados DynamoDB](./imagens/Node-Red_Gráfico_01.png)
 
+![Tabela com os dados coletados e armazenados no banco de dados DynamoDB](./imagens/Node-Red_Tabela_01.png)
+
 ## JSONs
 
 [ESP32 - MQTT](https://github.com/betussi/esp32-iot/blob/main/node-red/ESP32%20-%20MQTT.json)
