@@ -52,7 +52,7 @@ http://ec2-52-14-56-16.us-east-2.compute.amazonaws.com:1880/ui
 ### Simulação Wokwi
 
 Os circuitos estão simulados na plataforma Wokwi e podem ser acessado através do link abaixo:
-https://wokwi.com/projects/305569599398609473
+[https://wokwi.com/projects/411449430671253505](https://wokwi.com/projects/411449430671253505)
 
 ## Simulação da montagem do projeto
 
