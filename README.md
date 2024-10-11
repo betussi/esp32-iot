@@ -6,13 +6,13 @@ Desenvolvido por [Leonardo Donato](https://github.com/leopdonato) - leonardo.don
 
 ### Visão Geral
 
-Este projeto visa monitorar em tempo real a temperatura e umidade através do sensor DHT11, onde os dados são armazenados no banco de dados (DynamoDB) sendo possível através de um gráfico ter a visualização completa do histórico das coletas para futuras análises. O sistema é composto por três conjuntos principais:
+Este projeto visa monitorar, em tempo real, a temperatura e umidade de um ambiente através do sensor DHT11. As informações são armazenadas em banco de dados (DynamoDB), sendo possível ter a visualização completa, através de um gráfico, do histórico das coletas para futuras análises. O sistema é composto por três conjuntos principais:
 
 1. **Publicação de Dados via MQTT**:  
-   Através do ESP32 os dados do ambiente são coletados e através do tópico iot/sensor/data os dados são publicados atráves do protocolo MQTT.
+   Através do ESP32 os dados do ambiente são coletados e, através do tópico iot/sensor/data, são publicados atráves do protocolo MQTT.
 
 3. **Controle de Temperatura e Umidade (Back-End)**:  
-   Via Node-Red as informações de temperatura e unimidade são recebidas e armazenados no banco de dados DynamoDB.
+   Via Node-Red as informações de temperatura e umidade são recebidas e armazenados no banco de dados DynamoDB.
 
 4. **Visualização dos Dados**:  
    As coletas podem ser visualizadas através de duas abas, onde temos o tempo real e gráfico/tabela.
@@ -53,7 +53,7 @@ http://ec2-52-14-56-16.us-east-2.compute.amazonaws.com:1880/ui
 
 ### Simulação Wokwi
 
-Os circuitos estão simulados na plataforma Wokwi e podem ser acessado através do link abaixo:
+Os circuitos estão simulados na plataforma Wokwi e podem ser acessados através do link abaixo:
 [https://wokwi.com/projects/411449430671253505](https://wokwi.com/projects/411449430671253505)
 
 ## Simulação da montagem do projeto
@@ -64,6 +64,6 @@ Os circuitos estão simulados na plataforma Wokwi e podem ser acessado através 
 
 ![Wokwi - Projeto 02](./imagens/Wokwi_02.png)
 
-## Resultado a coleta feita via Wokwi
+## Resultado da coleta feita via Wokwi
 
 ![Wokwi - Projeto 03](./imagens/Wokwi_03.png)
