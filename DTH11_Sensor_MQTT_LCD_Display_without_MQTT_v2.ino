@@ -4,8 +4,8 @@
 #include "DHT.h"
 
 // Configurações do Wi-Fi
-const char* ssid = "Betussi 2.4Ghz";
-const char* password = "Rfb@Sup23cpd";
+const char* ssid = "";
+const char* password = "";
 
 // DHT sensor
 #define DHTPIN 4         
@@ -73,3 +73,4 @@ void loop() {
 
   delay(2000); // Atualiza a cada 2 segundos
 }
+
